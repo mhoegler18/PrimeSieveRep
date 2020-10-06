@@ -16,7 +16,11 @@ public class EratosthenesPrimeSieve {
     int obergrenze;
     boolean prime[];
 
-    
+    /**
+     *
+     * @param p
+     * @return 
+     */
     public EratosthenesPrimeSieve(int obergrenze) {
         this.obergrenze = obergrenze;
     }
@@ -47,7 +51,7 @@ public class EratosthenesPrimeSieve {
      
             
         }
-    public void printPrime(int p){
+     public void printPrime(int p){
              prime = new boolean[p+1];
         for (int i = 0; i <p; i++) {
             prime[i]= true;
@@ -61,7 +65,17 @@ public class EratosthenesPrimeSieve {
                 }
             }
         }
-    }
+            for (int i = 2; i <=p; i++) {
+             if(prime[i]==true){
+                 System.out.println(i+"");
+             }
+             
+         }
+             
+          
+        }
+     
+       
 }
     
 
