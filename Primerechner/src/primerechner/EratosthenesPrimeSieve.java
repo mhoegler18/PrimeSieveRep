@@ -78,7 +78,11 @@ public class EratosthenesPrimeSieve {
             int a = 0;
             int b =0;
             int[]alleZahlenArray = new int[g];
-       
+            for (int i = 2; i <= (g/2); i++) { //
+                alleZahlenArray[i] = i*2;      //
+                
+            }
+            
          
 }
         }
