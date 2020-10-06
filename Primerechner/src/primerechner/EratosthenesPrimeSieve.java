@@ -82,6 +82,25 @@ public class EratosthenesPrimeSieve {
                 alleZahlenArray[i] = i*2;      //
                 
             }
+            for (int i : alleZahlenArray) {
+                for (int j = 2; j < i; j++) {
+                    if(isPrime(j)==true){
+                        a=j;
+                        for (int k = 2; k < i; k++) {
+                            if(isPrime(k)==true &&(k+a)==i){
+                            b=k;
+                            if(a+b==i){
+                        System.out.println("erg:"+i+"="+a+"+"+b);
+                    }
+                        }
+                            
+                        }
+                    }
+                    
+                 
+                    
+            }
+        }
             
          
 }
