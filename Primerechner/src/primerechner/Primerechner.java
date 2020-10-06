@@ -25,8 +25,9 @@ public class Primerechner {
         int obergrenze = in.nextInt();
         EratosthenesPrimeSieve er = new EratosthenesPrimeSieve(obergrenze);
         
-     
+        er.primeCalc(obergrenze);
         er.printPrime(obergrenze);
+        
         
        
     }
