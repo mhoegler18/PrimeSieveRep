@@ -67,13 +67,22 @@ public class EratosthenesPrimeSieve {
         }
             for (int i = 2; i <=p; i++) {
              if(prime[i]==true){
-                 System.out.println("primzahl="+1);
+                 System.out.println("primzahl="+i);
              }
              
          }
              
           
         }
+     public void primeCalc(int g){
+            int a = 0;
+            int b =0;
+            int[]alleZahlenArray = new int[g];
+       
+         
+}
+        }
+
      
        
 }
