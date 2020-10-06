@@ -90,7 +90,7 @@ public class EratosthenesPrimeSieve {
                             if(isPrime(k)==true &&(k+a)==i){
                             b=k;
                             if(a+b==i){
-                        System.out.println("erg:"+i+"="+a+"+"+b);
+                        System.out.println("ergebnis:"+i+"="+a+"+"+b);
                     }
                         }
                             
