@@ -67,7 +67,7 @@ public class EratosthenesPrimeSieve {
         }
             for (int i = 2; i <=p; i++) {
              if(prime[i]==true){
-                 System.out.println(i+"");
+                 System.out.println("primzahl="+1);
              }
              
          }
